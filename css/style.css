@@ -1,12 +1,31 @@
 .home {
-  background: blue;
+  background: grey;
   height: 100vh;
-
+  top: 0;
+  left: 0;
 }
+
+.title-box {
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .projects {
   background: yellow;
   height: 100vh;
+  /*margin: 0 90px;*/
+  /*top: 90px;*/
+}
 
+.project-box{
+  border: 1px solid black;
+
+  /*height: 150px;*/
 }
 
 .contacts {
@@ -14,3 +33,66 @@
   height: 100vh;
 
 }
+
+
+#about-box {
+  background: white;
+  height: 100vh;
+}
+
+.about-box{
+  background-color: black;
+  height: 500px;
+  margin-top: 30px;
+  border: 1px black solid;
+  margin-top: 0px;
+}
+.about-box p {
+  font-size: 90px;
+}
+
+.about-box2{
+  border: 1px solid black;
+  top: 100px;
+}
+.about-box2 h1 {
+  font-size: 90px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 40px;
+  background-color: black
+}
+
+ul {
+    list-style: none;
+    padding: 20;
+    margin: 20;
+
+  }
+
+  li {
+    display: inline-block;
+    float: right;
+    margin-left: 20px;
+    line-height: 40px;
+  }
+  li:first-child {
+    margin-right: 70px;
+}
+a {
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*.hidden {
+  display: none;
+  visibility: hidden;
+}*/
