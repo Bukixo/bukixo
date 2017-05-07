@@ -4,10 +4,10 @@
 
 }
 .projects {
-  background: white;
+  background-color: grey;
   height: 100vh;
-  margin: 80px 20px;
-  top: 50px;
+  margin: 80px -10px;;
+  /*top: 50px;*/
 
 }
 .project-box{
@@ -29,4 +29,17 @@ p {
   padding: 20px;
   line-height: 5px;
 
+}
+
+.fabric {
+  border: 1px solid black;
+  background: yellow;
+  height: 100vh;
+  margin: 80px 40px;
+
+}
+.fabrics-pics{
+  border: 1px solid black;
+
+  height: 70px;
 }
