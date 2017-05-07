@@ -1,0 +1,33 @@
+#about-box {
+  background: white;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  /*visibility: hidden;*/
+}
+
+
+.about-box{
+  background-color: black;
+  height: 500px;
+  /*margin-top: 30px;*/
+  border: 1px black solid;
+  margin-top: 39px;
+  /*font-size: 200px;*/
+  word-wrap: break-word;
+  letter-spacing: 20px;
+}
+.about-box h1 {
+  font-size: 90px;
+}
+
+.about-box2{
+  /*border: 1px solid black;*/
+  top: 100px;
+  height: 400px;
+  padding-top: 40px;
+}
+
+.about-box2 h1 {
+  font-size: 60px;
+}

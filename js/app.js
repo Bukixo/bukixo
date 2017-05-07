@@ -1,11 +1,11 @@
 $(() => {
-  // const $about = $('#about');
-  // const $aboutBox = $('#about-box');
-  //
-  //
-  // $about.click(function(){
-  //   $aboutBox.removeClass('hidden');
-  // });
+  const $about = $('#about');
+  const $aboutBox = $('#about-box');
+
+
+  $about.click(function(){
+    $aboutBox.toggle();
+  });
 });
   // </script>
   // </head>

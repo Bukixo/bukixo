@@ -15,48 +15,12 @@
   text-align: center;
 }
 
-.projects {
-  background: yellow;
-  height: 100vh;
-  /*margin: 0 90px;*/
-  /*top: 90px;*/
-}
 
-.project-box{
-  border: 1px solid black;
-
-  /*height: 150px;*/
-}
 
 .contacts {
   background: red;
   height: 100vh;
 
-}
-
-
-#about-box {
-  background: white;
-  height: 100vh;
-}
-
-.about-box{
-  background-color: black;
-  height: 500px;
-  margin-top: 30px;
-  border: 1px black solid;
-  margin-top: 0px;
-}
-.about-box p {
-  font-size: 90px;
-}
-
-.about-box2{
-  border: 1px solid black;
-  top: 100px;
-}
-.about-box2 h1 {
-  font-size: 90px;
 }
 
 header {
