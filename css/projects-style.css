@@ -4,9 +4,9 @@
 
 }
 .projects {
-  background-color: grey;
+  /*background-color: grey;*/
   height: 100vh;
-  margin: 80px -10px;;
+  margin: 80px -10px;
   /*top: 50px;*/
 
 }
@@ -32,14 +32,45 @@ p {
 }
 
 .fabric {
-  border: 1px solid black;
-  background: yellow;
+  /*border: 1px solid black;*/
   height: 100vh;
-  margin: 80px 40px;
+  margin: 80px -10px;
+}
+.fabric p {
+  text-align: center;
+  font-size: 70px;
+  background-color: none;
+}
+.fb{
+  /*border: 1px solid black;*/
+  margin-top: 70px;
+  text-align: center;
+}
+.fabric-pics{
+  background-color: black;
+  border-bottom: 10px solid black;
+  border-top: 5px solid black;
+  overflow-y: scroll;
+  height: 500px;
+  top: 30px;
+  z-index: 2;
+}
+
+.fabric-pics img {
+  margin-top: 10px;
+}
+.fabric-info {
+  top: 10px;
+  background-color: grey;
+  padding: 40px;
+  height: 550px;
+  overflow-y: scroll;
+  z-index: 1;
+  transform: translateX(-5%);
+  padding-left: 50px;
 
 }
-.fabrics-pics{
-  border: 1px solid black;
 
-  height: 70px;
+.fabric-info h1 {
+  font-size: 50px;
 }
