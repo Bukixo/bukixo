@@ -3,6 +3,7 @@
   height: 100vh;
   top: 0;
   left: 0;
+
   /*visibility: hidden;*/
 }
 
@@ -16,7 +17,17 @@
   /*font-size: 200px;*/
   word-wrap: break-word;
   letter-spacing: 20px;
+  /*display: none;*/
+  -webkit-animation: mymove infinite;
+  animation: mymove 1;
+  animation-duration: 2s;
 }
+
+@keyframes mymove {
+    from {top: -500px;}
+    to {top: 0px;}
+}
+
 .about-box h1 {
   font-size: 90px;
 }

@@ -1,13 +1,14 @@
 .home {
-  background: grey;
+  background: white;
   height: 100vh;
   top: 0;
   left: 0;
+  transition: background-color 3s ease-in-out;
 }
 
 .title-box {
   background-color: white;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: absolute;
   top: 50%;
   left: 50%;
