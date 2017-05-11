@@ -57,7 +57,37 @@ a {
   font-weight: bold;
 }
 
-/*.hidden {
-  display: none;
-  visibility: hidden;
-}*/
+img {
+  width: 350px;
+}
+@media (max-width: 1200px) {
+  img {
+    width: 200;
+
+  }
+  }
+  @media (max-width: 1000px) {
+    img {
+      width: 100;
+    }
+
+  }
+  @media (max-width: 800px) {
+    img {
+      width: 50;
+    }
+
+  }
+  @media (max-width: 400px) {
+    img {
+      width: 50;
+    }
+
+}
+
+@media (max-width: 300px) {
+  img {
+    width: 50;
+  }
+
+}

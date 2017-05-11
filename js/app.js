@@ -16,6 +16,7 @@ $(() => {
   const $ed = $('.ed');
   const $shuku = $('.shuku');
   const $simon = $('.simon');
+  const $links = $('p a');
 
   backgroundChange();
 
@@ -63,6 +64,16 @@ $(() => {
 
   function backgroundChange(){
     changeColor($home, ['Grey']);
+  }
+
+////////////////////////////////////////
+
+
+  $links.on('click', scrollToSection);
+
+  function scrollToSection() {
+    const section = $(this).attr('href');
+    $('body').animate({ scrollTop: $(`${section}`).offset().top}, 1000);
   }
 
 }); ////////////window closing tag
