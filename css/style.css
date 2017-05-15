@@ -1,6 +1,7 @@
 @font-face {
    font-family: subTitle;
-   src: url(fonts/BodoniFLF-Roman.ttf);
+   src: url(fonts/Bodoni.ttf);
+   src: url('css/fonts/Bodoni.ttf');
 }
 
 
