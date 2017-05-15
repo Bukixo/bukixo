@@ -63,7 +63,7 @@ $(() => {
   }
 
   function backgroundChange(){
-    changeColor($home, ['Grey']);
+    changeColor($home, ['#e0e0e0']);
   }
 
 ////////////////////////////////////////
