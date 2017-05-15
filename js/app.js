@@ -16,7 +16,7 @@ $(() => {
   const $ed = $('.ed');
   const $shuku = $('.shuku');
   const $simon = $('.simon');
-  const $links = $('p a');
+  const $links = $('.projects a');
 
   backgroundChange();
 
