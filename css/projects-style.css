@@ -11,11 +11,15 @@
   word-wrap: break-word;
   text-align: center;
 }
+.normal-link {
+  display: block;
+}
 .links {
   display: block;
 }
 .mobile-links {
   display: none;
+  margin: 10px 10px;
 }
 
 .p2{
@@ -108,7 +112,7 @@ color: #e9e8e8;
   font-size: 50px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 740px) {
  .project-overview {
    display: none;
  }
@@ -117,6 +121,9 @@ color: #e9e8e8;
  }
  .mobile-links {
    display: block;
+ }
+ .normal-link {
+   display: none;
  }
  .project- {
 
