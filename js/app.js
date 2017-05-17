@@ -27,7 +27,7 @@ $(() => {
   }
 
   function backgroundChange(){
-    changeColor($home, ['#e0e0e0']);
+    changeColor($home, ['#373638']);
   }
 
 ////////////////////////////////////////
