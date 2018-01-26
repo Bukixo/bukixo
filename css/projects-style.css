@@ -131,4 +131,7 @@ color: #e9e8e8;
  .p-img {
    filter: grayscale(0%);
  }
+ .fabric-hide{
+   display: none;
+ }
 }
