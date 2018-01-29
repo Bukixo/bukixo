@@ -66,9 +66,9 @@ h3.title-about {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 800px) {
   h3.title-about {
-    font-size: 151px;
+    font-size: 141px;
   }
   h4 {
-    transform: translate(0%, 10%);  
+    transform: translate(0%, 10%);
   }
 }
